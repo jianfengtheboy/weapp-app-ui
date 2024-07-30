@@ -1,0 +1,18 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "weapp-app-ui",
+  "description": "taro微信小程序项目模版",
+  "appid": "",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false,
+    "ignoreDevUnusedFiles": false,
+    "ignoreUploadUnusedFiles": false
+  },
+  "compileType": "miniprogram",
+  "enableShareAppMessage":true
+}
