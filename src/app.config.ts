@@ -9,6 +9,7 @@ export default defineAppConfig({
     navigationBarTitleText: 'taro微信小程序项目模版',
     navigationBarTextStyle: 'black'
   },
+  // 如果需要做分包处理，可如下添加配置，并在packages文件夹下新增相同路径的页面文件；反之，则需去除下面的配置。
   subPackages: [
     {
       // 首页相关

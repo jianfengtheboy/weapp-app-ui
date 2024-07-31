@@ -1,5 +1,5 @@
 import { defineStore } from "pinia"
-import { getUserInfo, getToken } from "./helpers"
+import { getUserInfo, getToken, clearAuthStorage } from "./helpers"
 
 interface IAuthState {
   // 用户信息
@@ -20,7 +20,8 @@ export const useAuthStore = defineStore("authStore", {
   actions: {
     // 重置auth状态
     resetAuthStore() {
-      this.token = null
+      clearAuthStorage()
+      this.$reset()
     }
   }
 })

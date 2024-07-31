@@ -22,6 +22,7 @@ export const getUserInfo = () => {
 
   return userInfo
 }
+
 // 设置用户信息
 export const setUserInfo = (userInfo: Auth.UserInfo) => {
   localStorage.set('userInfo', userInfo)
